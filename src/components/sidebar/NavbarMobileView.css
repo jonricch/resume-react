@@ -1,0 +1,68 @@
+.mobile-view-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-header {
+  width: 100%;
+  background-color: #030303da;
+  color: white;
+  height: 50px;
+  padding: 5px;
+}
+
+#dark .navbar-header {
+  background-color: black;
+  color: white;
+}
+
+.navbar-header p svg {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.mobile-nav {
+  height: auto;
+  width: 210px;
+  background-color: #030303da;
+  margin-left: -4px;
+  padding-top: 10px;
+}
+
+#dark .mobile-nav {
+  background-color: black;
+}
+
+.mobile-nav ul li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+#dark .mobile-nav ul li {
+  color: white;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+
+.nav-item-mobileview .active {
+  color: black;
+  background-color: #c2d611;
+  border-radius: 90px;
+  padding: 5px;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .mobile-view-navbar {
+    display: none;
+  }
+}

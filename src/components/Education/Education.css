@@ -1,0 +1,21 @@
+.education-section {
+  margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+  .education-section {
+    margin-top: 100rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-section {
+    margin-top: 600px;
+  }
+}
+
+@media (max-width: 425px) {
+  .education-section {
+    margin-top: 105rem;
+  }
+}

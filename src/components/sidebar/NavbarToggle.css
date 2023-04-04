@@ -1,0 +1,21 @@
+.navbar-theme-change {
+  width: 100px;
+}
+
+.navbar-theme-change p {
+  width: 100%;
+  color: white;
+}
+
+#dark .navbar-theme-change p {
+  color: white;
+}
+
+.navbar-toggle {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  color: black;
+}
